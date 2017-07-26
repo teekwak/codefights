@@ -1,0 +1,15 @@
+{
+  "name": "beautifuljavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "beautiful_javascript.js",
+  "scripts": {
+    "start": "node beautifulJavascript.js",
+    "test": "jasmine spec/beautifulJavascriptSpec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rewire": "^2.5.2"
+  }
+}
