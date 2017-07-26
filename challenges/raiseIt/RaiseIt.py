@@ -1,6 +1,6 @@
 # This is a reverse challenge, enjoy!
 
-raiseIt = lambda a: sum([(x // 10) ** (x % 10) for x in a])
+raiseIt = lambda a: sum((x // 10) ** (x % 10) for x in a)
 
 if __name__ == '__main__':
 	print(raiseIt([11, 22, 33] )) # 32
